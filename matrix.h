@@ -29,6 +29,7 @@ class matrix{
     double &data_(int i, int j){return data.at(i).at(j);}
     //return vector< vector< double > > [nxm] matrix
     vector< vb > &data_(){return data;}
+    bool is_squared_matrix(){return bool(row_()==col_());}
     matrix operator-(){
         matrix tmp;
         tmp.row_() = this->n;

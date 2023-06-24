@@ -20,7 +20,6 @@ class squared_matrix : public matrix{
         data_().reserve(row_()*col_()*sizeof(int));
         data_() = INPUTdata;
     }
-    bool is_squared_matrix(){return bool(row_()==col_());}
     double determinant(){
         if( col_() != row_() ) invalid_size_noti();
         if(row_() == 1 && col_() == 1 ) return data_(0,0);
