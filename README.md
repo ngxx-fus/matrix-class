@@ -1,4 +1,4 @@
-##  There is an exercise of OOP in C++.
+There is an exercise of OOP in C++. 
 The object is a matrix with input/output/addition/subtraction/multiply properties.
 ---
 class matrix: original 
