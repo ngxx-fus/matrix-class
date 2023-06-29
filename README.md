@@ -1,10 +1,5 @@
-There is an exercise of OOP in C++. 
-The object is a matrix with input/output/addition/subtraction/multiply properties.
----
-class matrix: original 
-class squared_matrix: squared_matrix is inheritance by matrix class
----
-* input/output for a squared matrix
-* Determinant of a squared matrix
-* Inverse of a squared matrix
-
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
+ <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
+ <img alt="YOUR-ALT-TEXT" src="YOUR-DEFAULT-IMAGE">
+</picture>
