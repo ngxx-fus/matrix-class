@@ -1,3 +1,15 @@
-##  Đây là một bài tập nhỏ về hướng đối tượng.
-Đối tượng chính là ma trận (maxtrix) với các thuộc tính nhập/xuất cộng trừ, nhân.
-Có hai class trong bài tập này,  được xây dựng như sau:
+##  There is an exercise of OOP in C++.
+The object is a matrix with input/output/addition/subtraction/multiply properties.
+---
+class matrix : 
+* input (using cin)
+* output (using cout)
+* addition
+* subtraction
+* multiply
+class squared_matrix : 
+  squared_matrix is inheritance by matrix class
+* input/output for a squared matrix
+* Determinant of a squared matrix
+* Inverse of a squared matrix
+---
